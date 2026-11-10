@@ -5,6 +5,8 @@ date: 2022-09-19
 topic: society
 ---
 
+![Interview | “Sexual and reproductive health issues should be everyone’s concern”:  Tushar Niroula, Executive Director, Sunaulo Parivar Nepal](/blog/interview-sexual-and-reproductive-health-issues-should/cover.jpg)
+
 **Marie Stopes Nepal** is a representative office of MSI Reproductive Choices, UK. MSI Reproductive Choices is a global sexual and reproductive health (SRH) service provider that works in close partnership with local NGOs throughout the world and provides partner NGOs with technical and managerial support.
 
 MSI currently has partnerships in 37 countries in Asia, Africa, Europe and Latin America. Sunaulo Parivar Nepal (SPN) has been working as implementing partner for Marie Stopes Nepal to increase access to choices of reproductive health services through static centers, outreach and MS Ladies with a common mission of enabling people to have children by choice not chance. 

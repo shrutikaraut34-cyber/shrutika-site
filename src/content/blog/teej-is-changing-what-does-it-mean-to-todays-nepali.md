@@ -5,6 +5,8 @@ date: 2022-09-19
 topic: society
 ---
 
+![Teej is changing: What does it mean to today’s Nepali women?](/blog/teej-is-changing-what-does-it-mean-to-todays-nepali/cover.jpg)
+
 **Kathmandu**: The majority of Nepali women across the country are celebrating Teej today. There is more enthusiasm this year as such celebrations were halted for two years due to the Covid-19 pandemic.
 
 However, in the past few years, the celebration of Teej has gone through a drastic evolution. In the past, the focus was mainly on the pain of women living away from their birthplaces and the difficulties of married life, as well as worship of Lord Shiva through fasting so that their husbands would be granted a long healthy life. Teej was more about one of the two; women coming together and sharing bittersweet moments through an age-old celebration, or women holding up, directly or indirectly, the patriarchal notion that they need to dedicate their lives to their husbands.

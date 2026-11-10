@@ -5,6 +5,8 @@ date: 2022-07-25
 topic: society
 ---
 
+![Interview | ‘In Nepal, climate change effects are stark in all three ecological zones’: Dr Dharam Raj Uprety, thematic lead, Practical Action Nepal](/blog/interview-in-nepal-climate-change-effects-are-stark-in/cover.jpg)
+
 **Dr Dharam Raj Uprety** has 18 years of experience working in climate change, and disaster risk reduction sectors. He works in climate change adaptation, disaster risk reduction, early warning system and action research as well as natural resource management sector. Dr Uprety did his PhD from Austria, and a Post-doctorate from Czech Republic in between 2003-2008.
 
 Uprety is currently working with Practical Action Nepal as a thematic lead for climate and resilience in South Asia, particularly India, Nepal and Bangladesh. Practical Action is an international organization that works with communities to develop resourceful, long lasting and locally owned solutions for agriculture, water and waste management, climate resilience and clean energy. *Nepal Live Today* recently caught up with him to discuss a wide range of issues.

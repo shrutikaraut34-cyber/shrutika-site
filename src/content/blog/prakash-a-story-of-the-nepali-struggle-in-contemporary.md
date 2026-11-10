@@ -5,6 +5,8 @@ date: 2022-09-19
 topic: movies
 ---
 
+![Prakash: A story of the Nepali struggle in contemporary political landscape](/blog/prakash-a-story-of-the-nepali-struggle-in-contemporary/cover.png)
+
 **Kathmandu:** It’s not often that a Nepali movie manages to exceed expectations. Dinesh Raut’s ‘Prakash’ is one of those instances. Set in the rural backdrop of Jumla, the movie manages to capture life after democracy in Nepal in a remarkably realistic way.
 
 When I booked a ticket to watch the movie on a Wednesday afternoon, I expected the hall to be half occupied at most. To my amazement, the seats were almost full, even at noon on a weekday. There were also many young people in the audience, which can be taken as an indication of the changing landscape of Nepali cinema.

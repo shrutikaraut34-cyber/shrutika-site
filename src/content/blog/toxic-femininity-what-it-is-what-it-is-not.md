@@ -5,6 +5,8 @@ date: 2022-06-29
 topic: society
 ---
 
+![Toxic femininity: What it is, what it is not](/blog/toxic-femininity-what-it-is-what-it-is-not/cover.jpg)
+
 With the rise of public discourse about the controversies surrounding Hollywood stars Amber Heard and Jada Pinkett Smith, we’ve seen people throw around the term ‘toxic femininity’ and say how these women are examples of it. But what exactly is toxic femininity?
 
 To understand what toxic femininity can mean, we need to first understand toxic masculinity. Toxic masculinity is the pushing of the ideas of what counts as masculine and what doesn’t to the point where it harms men as well as the people around them. The idea that a man needs to be in control all the time or that he needs to be unemotional. Toxic masculinity can also be the rejection of all things feminine–like makeup of fashion or even self-care. This doesn’t mean that masculinity is in itself harmful. It just means that it becomes harmful if followed rigidly, as we see everyday.

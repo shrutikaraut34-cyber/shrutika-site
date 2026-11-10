@@ -5,6 +5,8 @@ date: 2022-06-29
 topic: society
 ---
 
+![Suffering in silence: Why young girls find it difficult to speak up against rape](/blog/suffering-in-silence-why-young-girls-find-it-difficult/cover.jpg)
+
 **Kathmandu:** There has been a new surge in discussion regarding sexual assault and the statute of limitation in cases related to sexual assault. 
 
 This followed after the rape allegations by a young girl against an actor and the recent revelations by another young girl, who was raped by one of the organizers of Miss Global International. 

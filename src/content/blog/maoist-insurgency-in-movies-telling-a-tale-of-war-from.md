@@ -5,6 +5,8 @@ date: 2022-07-25
 topic: movies
 ---
 
+![Maoist insurgency in movies: Telling a tale of war from the people’s perspective](/blog/maoist-insurgency-in-movies-telling-a-tale-of-war-from/cover.png)
+
 **Kathmandu:** There appears to be a revival in the Nepali artistic milieu in uncovering and retelling the stories of the people during the Maoist insurgency period. From movies like *Dokh*, *Prakash*, *Paniphoto*, to plays like *Palpasa Café*, *Khat* and *Inside/Outside IV* to music videos like “Pir” by Prakash Saput, there has been no shortage of retellings of the events that people had to go through during the decade-long war (1996-2006).
 
 There have been a few movies that discussed the civil war in passing, but there have hardly been any that went in depth about the experiences of the common people during the civil war era. That is slowly beginning to change due to the upsurge in character-driven narratives rather than plot-driven ones. 

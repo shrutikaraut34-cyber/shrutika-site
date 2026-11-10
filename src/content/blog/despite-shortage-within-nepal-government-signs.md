@@ -5,6 +5,8 @@ date: 2022-09-19
 topic: society
 ---
 
+![Despite shortage within Nepal, government signs agreement to send nurses to Britain](/blog/despite-shortage-within-nepal-government-signs/cover.jpg)
+
 **Kathmandu**: Nepal already fails to maintain nurse-to-patient ratio at home.
 
 Although the World Health Organization (WHO) recommends nurse-to-patient ratio should be maintained at 1:6, Nepal is not even near to the recommendation of the global health body. 

@@ -5,6 +5,8 @@ date: 2022-06-29
 topic: life
 ---
 
+![“You can achieve anything if you are willing to work hard”](/blog/you-can-achieve-anything-if-you-are-willing-to-work/cover.png)
+
 **Shimul Niraula** was introduced into the world of the beauty industry through her dad who was involved in the sector since 2005. Niraula went to Japan for further studies and returned to Nepal during the Covid-19 pandemic. However, she couldn’t go back to Japan as travel restrictions were enforced due to the pandemic. Niraula was then determined to make a foray into the Nepali beauty industry and launched Mishisa Cosmetics in 2020. In a conversation with *Nepal Live Today*, she shared that her motive to launch the store was to provide genuine branded products at a reasonable price. Excerpts:
 
 **Why are businesses dealing with authentic brands important in Nepal where the market is full of counterfeit products?**   

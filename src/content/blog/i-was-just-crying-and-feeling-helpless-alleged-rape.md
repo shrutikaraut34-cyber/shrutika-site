@@ -5,6 +5,8 @@ date: 2022-06-29
 topic: society
 ---
 
+![‘I was just crying and feeling helpless’: Alleged rape victim reveals horrifying series of incidents ](/blog/i-was-just-crying-and-feeling-helpless-alleged-rape/cover.jpg)
+
 **Kathmandu:** A case of alleged sexual abuse of a woman triggers rage against rape in Nepal. On Wednesday evening, several videos from a young woman appeared on Tiktok where she shared her story of how she was assaulted and abused by an unnamed person who was the organizer of a beauty pageant in which she had participated around 2014. 
 
 The videos, which have gone viral on social media, have exposed how the victims of sexual abuse are forced to stay silent for years fearing reprisal and lack of faith in the justice system.

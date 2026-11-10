@@ -5,6 +5,8 @@ date: 2022-06-29
 topic: society
 ---
 
+![A painful case of Niharika Rajput’s fight for justice](/blog/a-painful-case-of-niharika-rajputs-fight-for-justice/cover.jpg)
+
 **Kathmandu:** Carrying her 21-month-old child, a young mother is pleading for justice through a peaceful protest. She claims that she was raped at the age of 17, and is now fighting for justice for her and her baby.
 
 Niharika Rajput, an unmarried teen mom, has been demanding action against her alleged rapist Shiva Raj Shrestha. Rajput has taken to hunger strike at Basantapur, Kathmandu for justice, and is refusing to withdraw the strike so long as her demands are met. But the authorities have made no visible efforts to bring the culprit to justice.

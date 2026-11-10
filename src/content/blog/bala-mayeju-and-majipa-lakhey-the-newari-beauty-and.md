@@ -5,6 +5,8 @@ date: 2022-06-29
 topic: life
 ---
 
+![Bala Mayeju and Majipa Lakhey: The Newari Beauty and the Beast](/blog/bala-mayeju-and-majipa-lakhey-the-newari-beauty-and/cover.jpg)
+
 **Kathmandu**: Many stories have their own rendition of an attractive young woman falling for a hideous-looking man who later is shown to have an admirable personality. Beauty and the Beast–an American musical romantic fantasy film released in 2017–is a popular story in this genre. Likewise, other fascinating versions of similar stories have been passed down through generations. The story of Majipa Lakhey and Bala Mayeju (or Bala Maicha) is one of them.
 
 Majipa Lakhey is a special Lakhey in Newari mythology, worshipped as a ferocious deity despite being from a demon clan. His dance is featured in Indra Jatra every year. The recently-released music video ‘Mhaa Jita Hayekay Matey’ is based on his love story with a country girl Bala Mayeju.

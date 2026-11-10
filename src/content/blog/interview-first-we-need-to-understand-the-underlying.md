@@ -5,6 +5,8 @@ date: 2022-06-29
 topic: society
 ---
 
+![Interview | “First we need to understand the underlying factors that push children to the worst form of child labor,” Sudarshan Neupane, Head of Tdh Nepal Country Office](/blog/interview-first-we-need-to-understand-the-underlying/cover.jpg)
+
 **Terre des hommes (Tdh)** is a leading Swiss children’s rights organization dedicated to child protection, improving children’s health, and crisis intervention worldwide. In Nepal, Tdh is implementing various activities focusing on issues such as tackling child labor, mother and child health, children and youth in migration, and water, sanitation, and hygiene (WASH) among others. Tdh has been working to bring change to the lives of the most vulnerable children in Nepal since 1985. Its child protection and health programs continue to benefit thousands of children, their families, and communities across the country. In 2021, Tdh [reached 5.1 million children, their families, and community members](https://www.tdh.ch/en/media-library/documents/annual-report-2021) globally. 
 
 With more than 15 years of work experience in the field of development, **Sudarshan Neupane** has been working as a Head of Tdh Nepal Country Office. *Nepal Live Today* recently talked to him on a range of issues. 

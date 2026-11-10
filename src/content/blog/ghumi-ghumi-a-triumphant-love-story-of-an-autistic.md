@@ -5,6 +5,8 @@ date: 2022-06-29
 topic: movies
 ---
 
+![‘Ghumi Ghumi’: A triumphant love story of an autistic-coded character](/blog/ghumi-ghumi-a-triumphant-love-story-of-an-autistic/cover.jpg)
+
 **Kathmandu:** It’s been about a week since the release of ‘Ghumi Ghumi: A Folk Journey’, and it has already captured the hearts of many, with its endearing main character who’s autistic coded. Not only is it beautifully shot with an anamorphic lens, but the unfolding of the story in a rustic countryside setting adds to the ambiance, tying the song and the video together perfectly.  
 
 The music video, with almost two million views on YouTube in just two weeks, has been aesthetically crafted to celebrate the richness of Nepali folk music and folklife, which sums it up perfectly.

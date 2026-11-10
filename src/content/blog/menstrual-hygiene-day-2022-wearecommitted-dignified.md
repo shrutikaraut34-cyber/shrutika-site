@@ -5,6 +5,8 @@ date: 2022-06-29
 topic: society
 ---
 
+![Menstrual Hygiene Day 2022 | #Wearecommitted: Dignified Menstruation in Schools](/blog/menstrual-hygiene-day-2022-wearecommitted-dignified/cover.jpg)
+
 **Kathmandu:** Policymakers, rights activists, development professionals and other stakeholders on Friday stressed on the need to ensure that menstruation does not stop girls from attending school or participating in other school activities.
 
 In a program organized by Nepal’s Ministry of Education, Science and Technology in collaboration with Menstrual Health and Hygiene Management Partners’ Alliance (MHM PA Nepal), stakeholders said that the government should assure the girl students to be comfortable during their period. The program was organized with the theme”#Wearecommitted:  Dignified Menstruation in Schools”.

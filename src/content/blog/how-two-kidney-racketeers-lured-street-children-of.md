@@ -5,6 +5,8 @@ date: 2022-07-25
 topic: society
 ---
 
+![How two kidney racketeers lured street children of Kathmandu to sell kidneys in India](/blog/how-two-kidney-racketeers-lured-street-children-of/cover.jpg)
+
 **Kathmandu:** Bimal Bahadur Shahi, 32, a resident of Chamunda Bindrasaini Municipality-6 of Dailekh district, had sold his kidney in India a few years ago. Likewise, Dhan Bahadur Roka, 28, a resident of Manthali Municipality-5 of Ramechhap district also sold his kidney in India. Roka had changed his name to Vidhan Himal Shrestha. 
 
 Both of them had sold their kidney willingly in India. Not only did the two sell their own kidneys, but they also started to lure street children for the same.

@@ -5,6 +5,8 @@ date: 2022-09-19
 topic: life
 ---
 
+![How free is freedom of artistic expression in Nepal?](/blog/how-free-is-freedom-of-artistic-expression-in-nepal/cover.jpg)
+
 **Kathmandu**: Nepali singers, comedians, and vloggers have often been subjected to self-censorship, some of them even jailed for expressing opinions through the mediums of arts.   In some cases, they have been asked by the authorities and pressure groups to remove the ‘objectionable’ contents or make changes in their works. Here are some cases from recent times.
 
 **Case one:**

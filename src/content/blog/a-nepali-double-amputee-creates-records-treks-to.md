@@ -5,6 +5,8 @@ date: 2022-06-29
 topic: life
 ---
 
+![A Nepali double amputee creates records, treks to Everest Base Camp, and skydives over Everest](/blog/a-nepali-double-amputee-creates-records-treks-to/cover.jpg)
+
 **Kathmandu:** A former British Gurkha soldier has recorded his name in the history books by becoming the first double amputee to trek to Mount Everest Base Camp, and to skydive over the mountain. 
 
 Hari Bahadur Magar, a 43-year-old former British soldier, proved nothing is impossible when you are determined to achieve success. Magar became the first double amputee to trek to the base camp and skydive over Everest.

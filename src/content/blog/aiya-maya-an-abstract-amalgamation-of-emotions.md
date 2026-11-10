@@ -5,6 +5,8 @@ date: 2022-06-29
 topic: life
 ---
 
+![“Aiya! Maya”: An abstract amalgamation of emotions](/blog/aiya-maya-an-abstract-amalgamation-of-emotions/cover.jpg)
+
 **Kathmandu**: Sometimes the most powerful viewing experience is the one without a concrete theme but is emotive enough to make you feel an amalgam of emotions. Theater as an art form is at its best when it is unrestricted, free-flowing, and impacts you with sensation more than with words.
 
 Watching it for the first time, it is hard to pinpoint the central idea of “Aiya! Maya”, a play directed and written by Sudam Ck. The audiences unfamiliar with experimental concepts in the arts will definitely be flabbergasted watching it. The play hints from the get-go that it is not like anything else that’s out there and is an experience more so than a narrative.

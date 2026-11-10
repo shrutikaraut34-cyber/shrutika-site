@@ -5,6 +5,8 @@ date: 2022-06-29
 topic: society
 ---
 
+![Traumatic symptoms can be experienced long after traumatic incidents, say experts](/blog/traumatic-symptoms-can-be-experienced-long-after/cover.jpg)
+
 **Kathmandu**: A person can experience symptoms of trauma long after the traumatic incidents, experts have said.
 
 At a program organized by the Institute of Crisis Management Studies (ICMS) in the capital on Sunday, psychology and human rights experts highlighted the need for a positive response and timely counseling for trauma victims.  

@@ -222,7 +222,7 @@ button { font: inherit; color: inherit; background: none; cursor: pointer; }
   text-indent: -0.45em;
 }
 .prose ul, .prose ol { padding-left: 1.2em; }
-.prose img { margin-block: 2em; }
+.prose img { margin-block: 2em; max-width: 100%; height: auto; }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
