@@ -11,21 +11,35 @@ topic: life
 
 In June 2019, comedian Pranesh Gautam was arrested for making a satirical review of the film Bir Bikram 2. Gautam was taken into custody under the Electronic Transaction Act. Gautam’s fault was that he made a satirical video review of the film and uploaded it to YouTube. 
 
+![](/blog/how-free-is-freedom-of-artistic-expression-in-nepal/1.png)
+
+*YouTube screenshot*
+
 He was released only after a public outcry by the artists, rights activists, and media fraternity. Gautam had to remove the video from YouTube.
 
 **Case two:**
 
 [Pashupati Sharma](https://kathmandupost.com/editorial/2019/02/19/an-offer-he-couldnt-refuse), a prominent Nepali folk singer, also faced major backlash due to his lyrics in the song “Lutna Sake Lut”. The song was a satirical jab at political leaders and government officials for the corruption, negligence, and abuse of power that is prevalent in Nepal. The song was vehemently opposed to by the Youth Federation of Nepal, the youth wing of the then Nepal Communist Party. Due to vehement political statements made online as well as personal threats made to him, Sharma removed the song from online platforms. 
 
+![](/blog/how-free-is-freedom-of-artistic-expression-in-nepal/2.png)
+
+*Youtube Screenshot.*
+
 **Case three:**
 
 In March this year, [Prakash Saput](https://myrepublica.nagariknetwork.com/news/singer-saput-censors-pir-video-amid-widespread-criticisms/) released “Pir”, a song about the lives of those who fought during the Maoist insurgency. The video shows how some that fought for the Maoists are now in positions of power, while others are still living in hardship and being ignored by the government as well as the top Maoist leaders. The video featured a snippet of an ex-Maoist female combatant being involved in sex work.
+
+![](/blog/how-free-is-freedom-of-artistic-expression-in-nepal/3.png)
+
+*A screenshot of Prakash Saput’s Pir.*
 
 The video received severe backlash from the Maoist Center party as well as others. Sapit removed the controversial section from his video, saying he didn’t want the controversy to overshadow the message of the video.  
 
 **Case four:**
 
 [Apoorwa Kshitiz Singh](https://www.nepallivetoday.com/2022/09/01/an-artist-in-jail-for-commenting-on-newari-culture/) was recently taken into custody for his alleged derogatory remarks against the Newari community. Singh had made jokes about Newari culture, cuisine and tradition in a YouTube video. Singh’s remarks were deemed racially insensitive, which led to a demand for his arrest. Several Newari people marched to the Metropolitan Police Range in Kathmandu to file a case against Singh for the alleged hurtful, insensitive and disparaging comments made against them and their culture.
+
+![](/blog/how-free-is-freedom-of-artistic-expression-in-nepal/4.jpg)
 
 Apoorwa was released on bail only when he was found infected with Covid-19. He has been freed for treatment. It is uncertain whether he will be taken back to custody after recovering from Covid-19.
 

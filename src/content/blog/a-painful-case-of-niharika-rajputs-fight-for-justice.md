@@ -17,6 +17,10 @@ Then she took her case to the police 14 days following the incident but received
 
 “They judged me from my clothes,” she said in a statement on social media. She was wearing jeans and a shirt. “That is why they were indifferent to my case.”
 
+![](/blog/a-painful-case-of-niharika-rajputs-fight-for-justice/1.jpg)
+
+*Niharika Rajput (third from left)*
+
 She did a medical test to prove she had indeed been raped. The result shook her up when she found out that she was pregnant. Rajput demanded a DNA test of her baby to prove that the alleged rapist was indeed the father of her child, but her demand is as-yet-unheard by the authorities. 
 
 Rajput reportedly faced recurrent and immense pressure from her family to abort the child as well as death threats from Shrestha. “Even my family tried to force me—but for the sake of justice—I refused to comply,” she said. “My child is innocent.  The real culprit is the rapist. This pregnancy has provided me with more strength and resilience.”

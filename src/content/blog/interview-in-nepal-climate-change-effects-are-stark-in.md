@@ -31,6 +31,8 @@ As a denizen of earth, we all need to work together in reducing our carbon footp
 
 Initiatives such as ‘one house one plant’ also need to be introduced in city areas to increase greenery in the city. This can help mitigate the dangerous effects of heat waves that plague urban areas as well as ensure a cleaner environment. All of the laws and regulations passed by the government need to be followed in real life as well, which is where the role of civil societies, NGOs and INGOs comes in.
 
+![](/blog/interview-in-nepal-climate-change-effects-are-stark-in/1.jpg)
+
 **What is the biggest challenge that you have faced while working towards incorporating climate forecasting with farming?**
 
 Because of the effects of climate change in Nepal, there has been an unpredictable pattern of weather. That is why we have had to make many changes and developments in the climate and weather forecast. Just last year, the sudden onset of monsoon caused several crops to be ruined in many regions of Nepal, especially in Tarai areas. The loss was estimated to be about eight billion rupees in total. We are working jointly with the government towards a system of weather forecasts that informs farmers when to plant crops and when to harvest so that losses in agricultural fields can be minimized. The regulation of such a system would require joint efforts from the concerned stakeholders such as army, police, media, government as well as ordinary people. As flood forecasts are well recognized globally, we need to move and advance our early warning system to make it multi-hazards early warning. Several initiatives are currently ongoing from the government and non-government sectors to make multi-hazard early warning systems.

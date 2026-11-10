@@ -13,6 +13,7 @@ At a program organized by the Institute of Crisis Management Studies (ICMS) in t
 
 The symptoms of trauma, according to Pradhan, can be seen in a person long after the traumatic incidents. “A person can be triggered by simple reminders of the traumatic experience, like sounds or sights.”
 
+
 Likewise, Shiwani Manandhar, counseling psychologist and founder of ‘Working as Angels’ highlighted the importance of being informed about trauma, its effects, and its consequences. “Trauma-informed people can console and help victims by finding a solution, whereas a trauma-uninformed person might question victims about the incident,” she said. 
 
 Questions like ‘why do you always have an issue?’ further push the victims into trauma, Manandhar said. 

@@ -15,6 +15,8 @@ The narrative of ‘Prakash’ revolves around the titular character played by P
 
 Sita, played to perfection by Diya Maskey, had raised Prakash as a single mother through immense hardship, and they both dreamt of the day when Prakash would become a public school teacher. There are complications to achieving that dream due to political power plays and traditional mindsets leftover from the Panchayat era.
 
+![](/blog/prakash-a-story-of-the-nepali-struggle-in-contemporary/1.png)
+
 There are also themes of casteism in the movie. Prakash’s main love interest Radha, played by debut actress Renu Yogi, is from a so-called lower caste, which ends up being the biggest barrier in their relationship. The political shallowness of the postwar has also been depicted in the movie. Those who were in power in the Panchayat era are shown to still be in power, just under a new system of governance.
 
 The movie showcases the obstacles that ordinary Nepalis living in remote regions have to go through to overcome abject poverty and chase their dreams of a better life. The storytelling is organic and authentic, which is a rare thing to behold in today’s movies.

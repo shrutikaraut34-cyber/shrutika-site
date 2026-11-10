@@ -25,6 +25,8 @@ PS Luitel, a 19-year-old law student from Kathmandu, says that people should be 
 
 In her view, changes seen in the methods of celebration of Teej are the results of the larger social change. “Culture is always changing and adapting. A lot of our cultural practices are borrowed or have been modified throughout time. So trying to stick to a certain set of rules and traditions is not only restrictive but also fruitless,” says Luitel.
 
+![](/blog/teej-is-changing-what-does-it-mean-to-todays-nepali/1.jpg)
+
 Luitel also commented on the online onslaught against the supposed malpractices in Teej celebration. “A lot of the cultural and moral policing seen online are just tactics to control women. Anyone should be allowed to celebrate festivals the way they want as long as it doesn’t directly harm other people,” she said.
 
 According to her, it’s no business of men to dictate what women can and cannot do. “True equality won’t be achieved until men stop trying to dictate what women can and can’t do, and this moral grandstanding is definitely not what Teej is about.”
@@ -36,6 +38,8 @@ Apart from cultural and gender issues, there is an economic side to the celebrat
 Amrita Bhattarai, 36, from Jhapa is worried about this aspect. “I’ve observed that Teej has become more of a capitalistic venture than a cultural celebration,” she told *Nepal Live Today*. “Teej was meant to be an outlet for women to express their emotions in a mutual gathering through singing, dancing, fasting, worship, and other activities. Now it has become commoditized.” 
 
 Bhattarai, who is a lecturer of Nepali, argues that capital is taking hold of culture. “Teej has been overtaken by the wealthy who can afford to show off. The spirit of this festival is to listen to the voices of the women and celebrate womanhood, and even fight against patriarchal standards together,” Bhattarai said. “Now, the voices that need to be heard are being suppressed by a showoff of lavishness.” 
+
+![](/blog/teej-is-changing-what-does-it-mean-to-todays-nepali/2.jpg)
 
 According to her, women need to take Teej as an occasion to strengthen the bonds of sisterhood and unity. “Not all traditional practices of Teej should be followed. I personally don’t believe in fasting or waiting in long lines to worship in a temple,” she said. “I do believe in the bond of sisterhood, I think Teej helps strengthen relationships between family members. Such honest celebrations of this festival are seen very few and far between in today’s age.”
 
@@ -54,6 +58,8 @@ It is difficult not to look at Teej in gender binary terms since it is a festiva
 Jasmine Ojha, women rights activist and central member of All Nepal National Free Students Union (ANNFSU), has observed how Teej is made an occasion to impose restrictions on women. “Women are rarely allowed to step out of these restrictions. Even in a festival supposedly for their celebration, women are constantly being dictated on what to do and how to act,” Ojha said.
 
 Ojha believes that women should be allowed to do whatever they want as  long as it doesn’t affect others. “If something isn’t causing any real harm, why should it be ostracized? Why is a group of fully clad women having fun a matter of such panic?” 
+
+![](/blog/teej-is-changing-what-does-it-mean-to-todays-nepali/3.jpg)
 
 According to Ojha, Teej celebration should be a private affair. “There are still a lot of women from different parts of Nepal that feel pressured into fasting and worshiping, because if they don’t do so they may be lambasted for being a ‘bad wife’. Teej shouldn’t be a hectic compulsory activity of starvation and tireless worship. Women should be free to celebrate the way they want to”, she said.
 

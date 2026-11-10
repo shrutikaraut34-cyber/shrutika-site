@@ -17,6 +17,8 @@ I think Nepal has moved very strongly and swiftly in terms of sexual and reprodu
 
 In many cases, going to unsafe healthcare providers can result in life threatening complications. The provision of proper SRH services has helped people avoid unsafe healthcare providers. Marie Stopes is very much known to provide quality services within the country as well as internationally because of its stringent protocols and quality measures. Not only that, Marie Stopes also helps build the healthcare capacity of the government and provide technical and skill based support to the government in the SRH sector. 
 
+![](/blog/interview-sexual-and-reproductive-health-issues-should/1.jpg)
+
 It is also vital to make sexual and reproductive services sustainable and self dependent so that lack of funding doesn’t make people stranded without essential services. This will ultimately bring down MMR and ensure the safety of mothers as well as the newborns. 
 
 **Why is sexual and reproductive health education important in the context of a country like Nepal?**
@@ -44,6 +46,8 @@ It is a big priority for us to work with the youth as well. Through our programs
 > *“Many people are not willing to make sexual and reproductive decisions on their own. They are influenced by different factors and drivers of our patriarchal society, in the decision-making. They gravitate towards advice from fellow women instead of trained professionals.”* 
 
 We also work closely with parents and teachers as they are the first line of contact with young people. We will be coordinating with the National Youth Conference organized by Nepal Youth Council for engaging with youth participants from all of seven provinces. We will be contributing for empowering youths through developing a pool of educators from all provinces, to include adolescent sexual reproductive health session to reach almost all government schools of all districts of seven provinces.
+
+![](/blog/interview-sexual-and-reproductive-health-issues-should/2.jpg)
 
 **What can societal institutions like civil service institutions, civil societies or government do to destigmatize sexual and reproductive health?**
 

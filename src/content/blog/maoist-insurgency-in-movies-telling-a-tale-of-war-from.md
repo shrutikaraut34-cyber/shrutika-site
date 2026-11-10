@@ -17,6 +17,8 @@ Manoj Pandit, who has directed real life based movies like *Badhshala* and *Dasd
 
 Manoj Pandit has seen that people’s perception toward movies based on the civil war and the nature of those movies is changing. “Back in the past, it was a period of hush hush, and even talking about the war was frowned upon. Nowadays, depiction of the insurgency is seen in a lot of mainstream movies,” said Pandit. “The movies being made now don’t directly question the people in power or the authority. Instead, they mostly focus on how the war affected the lives of everyday people, which is most likely why they have mostly faced outrage but not outright ban.” 
 
+![](/blog/maoist-insurgency-in-movies-telling-a-tale-of-war-from/1.jpg)
+
 When questioned on what makes a good real-life based movie, Pandit said the main point to be focused on is how the movies depict the events. “A good movie always focuses on the struggles of ordinary people. It also needs to dig up and look into why the event discussed arises in the first place,” said Pandit. “The biggest concern to be kept in mind is that such movies shouldn’t just be social commentary. It should delve into how such events affect a person’s psyche. It’s not enough to document events. Its relevance in our present society needs to be explored.”
 
 However, making a movie about real life events such as the Maoist insurgency isn’t without its own contentions. There is always the possibility of personal biases being reflected in any form of art, especially with a matter as sensitive as violence or war. Taking sides when retelling a real event, even subconsciously, can cause a movie to lose its impact. Thus there needs to be a thorough vetting of the stories being told, especially from a character-based perspective.

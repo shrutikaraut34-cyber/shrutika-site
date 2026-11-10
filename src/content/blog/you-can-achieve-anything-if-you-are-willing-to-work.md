@@ -29,6 +29,8 @@ There was even a recent ban on the import of luxury products which created many 
 
 In recent times, I’ve seen a lot of young Nepali entrepreneurs who have started successful brands of their own. The main issue they’re facing is the lack of raw materials. But they are still doing a great job despite the obstacles. The main thing they as well as any businesses or brands have to keep in mind is proper research and development. Also, there need to be good products at a reasonable price. If a young Nepali entrepreneur is willing to take initiative, there will always be people there to support homegrown talents.
 
+![](/blog/you-can-achieve-anything-if-you-are-willing-to-work/1.jpg)
+
 **There are many difficulties for young business people in order to break into the business space. What, if any, hurdles have you had to overcome as a young woman in this industry?**
 
 Personally, I’ve never faced difficulty due to my gender. However, since I studied business abroad, I have had difficulties navigating the business space in Nepal because of the differences between the Nepali and the international market. There are a lot of practices that I learned in theory, but the implementation in practical form was different than I thought. Starting up a business is hard regardless of who you are, but the most important thing is to never give up.
@@ -36,6 +38,8 @@ Personally, I’ve never faced difficulty due to my gender. However, since I stu
 **What are essential elements of customer care and convenience?**
 
 I would say having patience while dealing with consumers is a crucial part of owning and operating a business. Each customer can be vastly different in terms of attitude and thinking, and they all need to be dealt with accordingly. Regardless of how you’re feeling, you shouldn’t let your own issues affect how you interact with a customer. We need to ensure a pleasant experience so that clients revisit which would endorse the longevity of a business. That’s something we focus on here at Mishisa Cosmetics, we want to ensure a pleasant shopping experience so that consumers are incentivized to visit again.
+
+![](/blog/you-can-achieve-anything-if-you-are-willing-to-work/2.jpg)
 
 **What skincare or self-care products would you consider must-haves?**
 
