@@ -1,7 +1,7 @@
 ---
 title: "Clingy, or Just Need Connection?"
 description: "Does wanting affection make you desperate?"
-date: 2026-11-12
+date: 2026-09-01
 topic: psychology
 pin: 4
 ---

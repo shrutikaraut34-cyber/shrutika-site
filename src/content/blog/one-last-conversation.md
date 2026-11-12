@@ -1,7 +1,7 @@
 ---
 title: "One Last Conversation"
 description: "The psychology behind needing closure"
-date: 2026-11-12
+date: 2026-09-01
 topic: psychology
 pin: 2
 ---

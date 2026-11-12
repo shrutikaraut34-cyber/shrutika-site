@@ -1,7 +1,7 @@
 ---
 title: "The Pull Towards Negative Bias"
 description: "And how to work on it"
-date: 2026-11-12
+date: 2026-09-01
 topic: psychology
 pin: 3
 ---

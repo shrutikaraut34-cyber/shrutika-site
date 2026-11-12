@@ -3,7 +3,6 @@ title: "Kathmandu school bus drivers handling steering wheels under the influenc
 description: "Earlier this week, traffic police found that some school bus drivers were handling the steering wheel under the influence of alcohol. In the surprise checking, police found five school bus drivers…"
 date: 2022-09-19
 topic: society
-draft: true
 ---
 
 ![Kathmandu school bus drivers handling steering wheels under the influence of alcohol](/blog/kathmandu-school-bus-drivers-handling-steering-wheels/cover.jpg)

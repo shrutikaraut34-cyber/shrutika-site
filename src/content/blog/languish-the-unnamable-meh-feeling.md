@@ -1,7 +1,7 @@
 ---
 title: "Languish: The Unnamable Meh Feeling"
 description: "Above sadness, below indifference."
-date: 2026-11-12
+date: 2026-09-01
 topic: psychology
 pin: 1
 ---

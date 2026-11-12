@@ -1,7 +1,7 @@
 ---
 title: "Sad Art Makes Me Cry - But Why?"
 description: "Why people cry more easily over sad movies, music and art"
-date: 2026-11-12
+date: 2026-09-01
 topic: psychology
 pin: 5
 ---
