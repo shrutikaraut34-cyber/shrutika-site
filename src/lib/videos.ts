@@ -79,4 +79,11 @@ export const VIDEOS: Video[] = [
     link: 'https://www.tiktok.com/@chiyasnooks/video/7549870890348039444',
     thumb: '10.jpg',
   },
+  {
+    title: 'First time at 16T? Don’t let the menu confuse you',
+    by: '16T Restro and Bar',
+    platform: 'Instagram',
+    link: 'https://www.instagram.com/reel/DeEs-opAgpm/',
+    thumb: '11.jpg',
+  },
 ];
