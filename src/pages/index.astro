@@ -16,45 +16,6 @@ const talks = [
   ['Psychology in plain words', 'Mental health and human behaviour, explained without the jargon.'],
 ];
 
-// German compound words, split into their parts, and what each one means in practice.
-const glossary = [
-  {
-    article: 'das',
-    parts: [['Sprach', 'language'], ['gefühl', 'feeling']],
-    meaning: 'A feel for language.',
-    practice: 'Clear writing, careful editing, and turning complicated ideas into plain ones.',
-  },
-  {
-    article: 'das',
-    parts: [['Finger', 'finger'], ['spitzen', 'tips'], ['gefühl', 'feeling']],
-    meaning: 'Tact in delicate situations.',
-    practice: 'Sensitive conversations, community work, and knowing when to just listen.',
-  },
-  {
-    article: 'das',
-    parts: [['Lampen', 'lamp'], ['fieber', 'fever']],
-    meaning: 'Stage fright.',
-    practice: 'I still get it before every talk. I go on anyway, and I’m better for it.',
-  },
-  {
-    article: 'das',
-    parts: [['Mit', 'with'], ['gefühl', 'feeling']],
-    meaning: 'Compassion.',
-    practice: 'The reason I studied psychology, and the lens I bring to every topic.',
-  },
-  {
-    article: 'das',
-    parts: [['Kopf', 'head'], ['kino', 'cinema']],
-    meaning: 'The film that plays in your mind.',
-    practice: 'Storytelling, film analysis, and imagining how other people see things.',
-  },
-  {
-    article: 'die',
-    parts: [['Zivil', 'civil'], ['courage', 'courage']],
-    meaning: 'The courage to speak up for others.',
-    practice: 'Writing honestly about society, even when the subject is uncomfortable.',
-  },
-];
 ---
 <Base desk>
   <Hero />
@@ -66,10 +27,8 @@ const glossary = [
       <aside class="profile paper" aria-label="At a glance">
         <span class="profile-top" aria-hidden="true"></span>
         <dl class="facts">
-          <div><dt>Studied</dt><dd>BA in Psychology</dd></div>
-          <!-- Add any other languages you speak here. -->
-          <div><dt>Languages</dt><dd>English, German</dd></div>
-          <div><dt>Writes about</dt><dd>Life, society and film</dd></div>
+          <div><dt>Studied</dt><dd>BSW (Social Work + Psychology)</dd></div>
+          <div><dt>Writes about</dt><dd>Society, psychology, art, films and culture</dd></div>
           <!-- Shrutika: change this to the kind of work you are looking for. -->
           <div><dt>Open to</dt><dd>Communications, advocacy and mental health work</dd></div>
         </dl>
@@ -79,13 +38,14 @@ const glossary = [
       {HAS_PORTRAIT && <img class="portrait" src={url('portrait.jpg')} alt="Portrait of Shrutika" width="480" height="600" />}
       <!-- Shrutika: rewrite this in your own words. -->
       <p class="lead">
-        I’m Shrutika. I studied science at +2, then psychology for my bachelor’s. Science taught me to
-        ask for evidence. Psychology taught me that people rarely act on evidence alone.
+        Hi, I’m Shrutika. I’ve always been curious, inquisitive, and drifting through multiple thoughts.
+        I love learning new things and expanding my horizons. Never back away from a challenge, and
+        always ready to lead or help.
       </p>
       <p>
-        Now I write about everyday life, the society we live in and the films that stay with me. And
-        whenever I get the chance, I say those ideas out loud to a room full of people, which is my
-        favourite thing to do.
+        I have always been interested in expression, whether it’s through stories, theatre, narration,
+        writing or music. I’m a lover of all things deepen the connection between people. My favorite
+        things is sharing what i feel and pushing for dialogue about all things that make us sit and think.
       </p>
       {HAS_CV && <a class="button quiet" href={url('cv.pdf')} download>Download my CV (PDF)</a>}
     </div>
@@ -104,12 +64,11 @@ const glossary = [
   <section id="speaking" class="stage" aria-labelledby="speaking-title">
     <div class="wrap stage-grid">
       <div class="stage-intro">
-        <p class="status"><span class="tally" aria-hidden="true"></span>Available for talks, panels and events</p>
         <h2 id="speaking-title" class="section-title">Some ideas are better said out loud.</h2>
         <p>
           I love public speaking: the nerves before, the quiet when a room is really listening, and the
           questions after. I’m happy to give a talk, sit on a panel, run a workshop, or host and moderate
-          an event, in English or German.
+          an event.
         </p>
         <div class="invite">
           <a class="button invert" href={invite}>Invite me to speak</a>
@@ -137,45 +96,9 @@ const glossary = [
     </div>
   </section>
 
-  <section class="glossary wrap" aria-labelledby="glossary-title">
-    <div class="glossary-head">
-      <h2 id="glossary-title" class="section-title">A few German words for how I work.</h2>
-      <p>German has a word for almost everything, usually built by gluing smaller words together. These are the ones that describe me best.</p>
-    </div>
-    <dl class="entries">
-      {glossary.map((entry) => (
-        <div class="entry paper">
-          <dt>
-            <span class="article">{entry.article}</span>
-            <span class="compound" lang="de">
-              {entry.parts.map(([part], i) => (
-                <>{i > 0 && <wbr />}<span class="part">{part}</span></>
-              ))}
-            </span>
-            <span class="literal">
-              {entry.parts.map(([, gloss]) => <span>{gloss}</span>)}
-            </span>
-          </dt>
-          <dd>
-            <span class="meaning">{entry.meaning}</span>
-            {entry.practice}
-          </dd>
-        </div>
-      ))}
-    </dl>
-    <p class="hand-note swipe-hint" aria-hidden="true">
-      swipe for more
-      <svg viewBox="0 0 40 20" width="34" height="17"><path d="M2 10 H 36 M36 10 l-7 -6 M36 10 l-7 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" /></svg>
-    </p>
-  </section>
-
   <section id="contact" class="contact wrap" aria-labelledby="contact-title">
     <div class="say-wrap">
-      <h2 id="contact-title" class="say">Say hello.<br />Or hallo.</h2>
-      <span class="hand-note say-note" aria-hidden="true">
-        <svg viewBox="0 0 40 20" width="34" height="17"><path d="M38 14 C 26 18, 12 16, 4 6 M4 6 l1 7 M4 6 l7 1" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" /></svg>
-        that’s German for hello
-      </span>
+      <h2 id="contact-title" class="say">Say hello.</h2>
     </div>
     <p class="contact-note">For writing, speaking, or work, email is the best way to reach me.</p>
     <a class="email" href={`mailto:${SITE.email}`}>{SITE.email}</a>
@@ -292,51 +215,6 @@ const glossary = [
   }
   .talks dd { margin: 0.35rem 0 0; color: var(--stage-soft); line-height: 1.45; }
 
-  /* Glossary */
-  .glossary { padding-block: var(--section); }
-  .glossary-head {
-    display: grid;
-    grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
-    align-items: end;
-    gap: 1.5rem clamp(2rem, 6vw, 6rem);
-    margin-bottom: clamp(2.5rem, 6vw, 4.5rem);
-  }
-  .glossary-head p { margin: 0; color: var(--ink-soft); max-width: 28rem; }
-  .entries {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 3rem clamp(1.5rem, 4vw, 3.5rem);
-    margin: 0;
-  }
-  .entry { padding: 1.4rem 1.5rem 1.6rem; }
-  .entry dt { display: grid; }
-  .article { font-style: italic; color: var(--ink-soft); }
-  .compound {
-    font-family: var(--sans);
-    font-size: clamp(1.6rem, 1.2rem + 1.2vw, 2.2rem);
-    font-weight: 700;
-    font-stretch: 85%;
-    letter-spacing: -0.02em;
-    line-height: 1.1;
-    overflow-wrap: break-word;
-  }
-  .part { transition: margin 220ms ease; }
-  .literal {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0 0.5em;
-    margin-top: 0.3rem;
-    font-family: var(--sans);
-    font-size: var(--step--1);
-    color: var(--ink-soft);
-  }
-  .literal span + span::before { content: '+'; margin-right: 0.5em; opacity: 0.6; }
-  /* Pull the compound apart into its pieces on hover, so you can see how it was built */
-  .entry:hover .part + .part { margin-left: 0.18em; }
-  .entry dd { margin: 1rem 0 0; line-height: 1.5; }
-  .swipe-hint { display: none; }
-  .meaning { display: block; font-size: var(--step-1); font-style: italic; line-height: 1.3; margin-bottom: 0.4rem; }
-
   /* Contact */
   .contact {
     padding-block: var(--section) clamp(2.5rem, 8vw, 5rem);
@@ -353,7 +231,6 @@ const glossary = [
   .invite { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.25rem; }
   .invite .hand-note { color: var(--stage-soft); }
   .say-wrap { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 0.5rem 1.5rem; }
-  .say-note { margin-bottom: 0.6em; }
   .contact-note { margin: 2rem 0 0.5rem; color: var(--ink-soft); }
   .email {
     font-family: var(--sans);
@@ -365,14 +242,11 @@ const glossary = [
   }
   .elsewhere { display: flex; gap: 1.5rem; margin: 1.5rem 0 0; font-family: var(--sans); font-weight: 600; }
 
-  @media (max-width: 56rem) {
-    .entries { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  }
   @media (max-width: 48rem) {
-    .about, .stage-grid, .glossary-head { grid-template-columns: 1fr; }
+    .about, .stage-grid { grid-template-columns: 1fr; }
   }
 
-  /* Phones: tighter rhythm, and the glossary becomes a row you swipe through */
+  /* Phones: tighter rhythm */
   @media (max-width: 40rem) {
     .about { gap: 1.5rem; }
     .about .section-title { font-size: 2.6rem; }
@@ -386,23 +260,6 @@ const glossary = [
     .talks dl > div { padding-block: 1rem; }
     .talks dt { font-size: 1.2rem; }
     .talks dd { font-size: 1rem; }
-    .glossary-head { gap: 1rem; margin-bottom: 1.75rem; }
-    .glossary-head p { font-size: 1rem; }
-    .entries {
-      display: flex;
-      gap: 1rem;
-      margin-inline: calc(var(--gutter) * -1);
-      padding: 0.25rem var(--gutter) 1.75rem;
-      overflow-x: auto;
-      scroll-snap-type: x mandatory;
-      scroll-padding-inline: var(--gutter);
-      scrollbar-width: none;
-    }
-    .entries::-webkit-scrollbar { display: none; }
-    .entry { flex: 0 0 82%; scroll-snap-align: start; }
-    .entry dd { font-size: 1rem; }
-    .swipe-hint { display: flex; margin: 0.25rem 0 0; color: var(--ink-soft); rotate: -2deg; }
-    .meaning { font-size: 1.2rem; }
     .say { font-size: 22vw; }
     .contact-note { margin-top: 1.5rem; font-size: 1rem; }
     .email { font-size: 1.35rem; }

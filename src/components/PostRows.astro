@@ -9,8 +9,9 @@ const { posts } = Astro.props;
 <ul class="rows">
   {posts.map((post) => (
     <li>
-      <a href={url(`writing/${post.slug}/`)}>
+      <a href={url(`writing/${post.slug}/`)} class={post.cover ? 'with-thumb' : undefined}>
         <time datetime={post.date.toISOString()}>{shortDate(post.date)}</time>
+        {post.cover && <img class="thumb" src={post.cover} alt="" loading="lazy" width="320" height="200" />}
         <span class="text">
           <span class="title">{post.title}</span>
           <span class="desc">{post.description}</span>
@@ -35,11 +36,27 @@ const { posts } = Astro.props;
     padding-block: 1.6rem;
     text-decoration: none;
   }
+  /* With a lead image: date, a cropped glimpse of the image, then the title */
+  a.with-thumb {
+    grid-template-columns: 6rem 10rem minmax(0, 1fr) 7rem;
+    align-items: start;
+  }
+  .thumb {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 8 / 5;
+    object-fit: cover;
+    border-radius: 4px;
+    background: var(--mist);
+    transition: scale 200ms ease;
+  }
+  a:hover .thumb, a:focus-visible .thumb { scale: 1.03; }
   time, .meta {
     font-family: var(--sans);
     font-size: var(--step--1);
     color: var(--ink-soft);
   }
+  a.with-thumb time, a.with-thumb .meta { padding-top: 0.3rem; }
   .meta { display: grid; justify-items: end; gap: 0.1rem; }
   .title {
     display: block;
@@ -53,8 +70,14 @@ const { posts } = Astro.props;
   }
   .desc { display: block; margin-top: 0.4rem; color: var(--ink-soft); line-height: 1.45; max-width: 34rem; }
   a:hover .title, a:focus-visible .title { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 0.15em; }
+  @media (max-width: 60rem) {
+    a.with-thumb { grid-template-columns: 5.5rem 8rem minmax(0, 1fr); }
+    a.with-thumb .meta { grid-column: 3; display: flex; gap: 1rem; justify-items: start; }
+  }
   @media (max-width: 44rem) {
-    a { grid-template-columns: 1fr; padding-block: 1.25rem; }
+    a, a.with-thumb { grid-template-columns: 1fr; padding-block: 1.25rem; }
+    a.with-thumb .meta { grid-column: auto; }
+    .thumb { aspect-ratio: 16 / 7; }
     .desc { font-size: 1rem; }
     .meta { display: flex; gap: 1rem; justify-items: start; }
     time { order: -1; }

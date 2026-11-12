@@ -4,9 +4,10 @@ import type { MarkdownInstance } from 'astro';
 export const SITE = {
   name: 'Shrutika',
   description:
-    'Shrutika is a psychology graduate, writer and speaker. She writes about everyday life, society and film, in English and German.',
+    'Shrutika is a psychology graduate, writer and speaker. She writes about everyday life, society and film.',
   email: 'shrutika.raut.34@gmail.com',
   linkedin: 'https://www.linkedin.com/in/shrutika-raut-755b32240/', // full LinkedIn URL; the link is hidden while this is empty
+  videoPortfolio: '', // link to the video content portfolio; the button scrolls to Contact while this is empty
 };
 
 export const TOPICS = {
@@ -42,6 +43,7 @@ export type Post = {
   date: Date;
   topic: Topic;
   words: number;
+  cover?: string; // public/blog/<slug>/cover.* when it exists
   Content: MarkdownInstance<Frontmatter>['Content'];
 };
 
@@ -67,8 +69,11 @@ export function getPosts(): Post[] {
       if (Number.isNaN(date.valueOf())) {
         throw new Error(`The article "${slug}.md" has a date that is not written like 2026-11-15.`);
       }
+      const coverDir = new URL(`../../public/blog/${slug}/`, import.meta.url);
+      const coverFile = fs.existsSync(coverDir) ? fs.readdirSync(coverDir).find((f) => f.startsWith('cover.')) : undefined;
       return {
         slug,
+        cover: coverFile ? url(`blog/${slug}/${coverFile}`) : undefined,
         title: fm.title,
         description: fm.description,
         date,

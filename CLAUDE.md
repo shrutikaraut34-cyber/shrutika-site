@@ -1,7 +1,7 @@
 # Shrutika's website
 
 Personal site of Shrutika, a psychology graduate, writer and public speaker who works in
-English and German. Astro 4 static site, live at https://shrutika.com.np. Every push to the
+English. Astro 4 static site, live at https://shrutika.com.np. Every push to the
 `main` branch is built and published by GitHub Pages (.github/workflows/deploy.yml).
 
 ## Who you are helping
@@ -25,7 +25,7 @@ fails, say what went wrong and how to fix it.
 - `sample-*.md` are placeholder articles. Delete them once she has real ones (ask first).
 
 ## Where things live
-- `src/pages/index.astro`: home page text (about, talk topics, the German words).
+- `src/pages/index.astro`: home page text (about, talk topics).
 - `src/lib/site.ts`: her email (`SITE.email`) and LinkedIn link (`SITE.linkedin`).
 - `public/cv.pdf` and `public/portrait.jpg`: add either file and it appears on the site
   automatically (a CV button, and a polaroid photo on the hero desk and in About).
