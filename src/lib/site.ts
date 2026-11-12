@@ -7,7 +7,6 @@ export const SITE = {
     'Shrutika is a psychology graduate, writer and speaker. She writes about everyday life, society and film.',
   email: 'shrutika.raut.34@gmail.com',
   linkedin: 'https://www.linkedin.com/in/shrutika-raut-755b32240/', // full LinkedIn URL; the link is hidden while this is empty
-  videoPortfolio: '', // link to the video content portfolio; the button scrolls to Contact while this is empty
 };
 
 export const TOPICS = {

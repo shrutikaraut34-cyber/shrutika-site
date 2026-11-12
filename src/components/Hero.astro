@@ -1,5 +1,5 @@
 ---
-import { url, SITE, HAS_PORTRAIT } from '../lib/site';
+import { url, HAS_PORTRAIT } from '../lib/site';
 
 // Loose letter tiles on the desk. Points are the usual Scrabble values.
 const tiles = [
@@ -51,7 +51,7 @@ const tiles = [
         <p class="example">“Ask Shrutika. She’ll have the word for it.”</p>
         <div class="actions">
           <a class="button primary" href={url('writing/')}>Read my writing</a>
-          <a class="button quiet" href={SITE.videoPortfolio || url('#contact')}>Video Content portfolio</a>
+          <a class="button quiet" href={url('#videos')}>Video Content portfolio</a>
         </div>
       </div>
 
