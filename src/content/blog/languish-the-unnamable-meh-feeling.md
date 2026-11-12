@@ -10,9 +10,9 @@ pin: 1
 
 By Shrutika Raut
 
-![A lone figure standing in a foggy, colourless field](/blog/languish-the-unnamable-meh-feeling/cover.jpg)
+![A hand pressed against a rain-covered window](/blog/languish-the-unnamable-meh-feeling/cover.jpg)
 
-*Photo: [Soumyojit Sinha on Pexels](https://www.pexels.com/photo/solitary-figure-in-foggy-field-scene-31233413/)*
+*Photo: [Rabia Hanım on Pexels](https://www.pexels.com/photo/hand-of-unrecognizable-person-behind-wet-window-4306577/)*
 
 There's a feeling that is very much unexplainable for most people. You don't feel happy or even okay. And it's not depression either. There's something underneath the still waters of your mind that you just can't see. Every day goes by like the wind, but you can't quite grasp the details of what's happening. You're able to function, but there's a fogginess to everything. The world feels like it has lost some of its vibrancy. But you don't feel sad per se, you just feel… meh. There is a word for this feeling - Languish.
 
