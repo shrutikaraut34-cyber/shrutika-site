@@ -20,7 +20,7 @@ fails, say what went wrong and how to fix it.
       topic: life
       ---
 
-- `topic` is one of: life, society, movies. `date` is written year-month-day.
+- `topic` is one of: life, society, movies, psychology. `date` is written year-month-day.
 - Add `draft: true` to hide an article until it is ready.
 - `sample-*.md` are placeholder articles. Delete them once she has real ones (ask first).
 

@@ -13,6 +13,7 @@ export const TOPICS = {
   life: 'Life',
   society: 'Society',
   movies: 'Movies',
+  psychology: 'Psychology',
 } as const;
 
 export type Topic = keyof typeof TOPICS;
@@ -33,6 +34,7 @@ type Frontmatter = {
   date: string | Date;
   topic: Topic;
   draft?: boolean;
+  pin?: number; // 1, 2, 3 ... keeps an article at the top of the lists, in that order
 };
 
 export type Post = {
@@ -42,6 +44,7 @@ export type Post = {
   date: Date;
   topic: Topic;
   words: number;
+  pin?: number;
   cover?: string; // public/blog/<slug>/cover.* when it exists
   Content: MarkdownInstance<Frontmatter>['Content'];
 };
@@ -62,7 +65,7 @@ export function getPosts(): Post[] {
         if (!fm[key]) throw new Error(`The article "${slug}.md" is missing "${key}" at the top of the file.`);
       }
       if (!(fm.topic in TOPICS)) {
-        throw new Error(`The article "${slug}.md" has topic "${fm.topic}". The topic must be life, society or movies.`);
+        throw new Error(`The article "${slug}.md" has topic "${fm.topic}". The topic must be life, society, movies or psychology.`);
       }
       const date = new Date(fm.date);
       if (Number.isNaN(date.valueOf())) {
@@ -77,11 +80,13 @@ export function getPosts(): Post[] {
         description: fm.description,
         date,
         topic: fm.topic,
+        pin: fm.pin,
         words: file.rawContent().trim().split(/\s+/).length,
         Content: file.Content,
       };
     })
-    .sort((a, b) => b.date.valueOf() - a.date.valueOf());
+    // Pinned articles first (1, 2, 3 ...), then everything else, newest first
+    .sort((a, b) => (a.pin ?? Infinity) - (b.pin ?? Infinity) || b.date.valueOf() - a.date.valueOf());
 }
 
 export function formatDate(d: Date) {

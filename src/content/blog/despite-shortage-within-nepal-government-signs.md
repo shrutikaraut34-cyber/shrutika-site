@@ -3,6 +3,7 @@ title: "Despite shortage within Nepal, government signs agreement to send nurses
 description: "Nepal already fails to maintain nurse-to-patient ratio at home. Although the World Health Organization (WHO) recommends nurse-to-patient ratio should be maintained at 1:6, Nepal is not even near to…"
 date: 2022-09-19
 topic: society
+draft: true
 ---
 
 ![Despite shortage within Nepal, government signs agreement to send nurses to Britain](/blog/despite-shortage-within-nepal-government-signs/cover.jpg)

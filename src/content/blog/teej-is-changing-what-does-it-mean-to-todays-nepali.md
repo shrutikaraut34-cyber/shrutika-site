@@ -3,6 +3,7 @@ title: "Teej is changing: What does it mean to today’s Nepali women?"
 description: "The majority of Nepali women across the country are celebrating Teej today. There is more enthusiasm this year as such celebrations were halted for two years due to the Covid-19 pandemic. However, in…"
 date: 2022-09-19
 topic: society
+pin: 7
 ---
 
 ![Teej is changing: What does it mean to today’s Nepali women?](/blog/teej-is-changing-what-does-it-mean-to-todays-nepali/cover.jpg)

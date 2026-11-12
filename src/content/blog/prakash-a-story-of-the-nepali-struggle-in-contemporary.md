@@ -3,6 +3,7 @@ title: "Prakash: A story of the Nepali struggle in contemporary political landsc
 description: "It’s not often that a Nepali movie manages to exceed expectations. Dinesh Raut’s ‘Prakash’ is one of those instances. Set in the rural backdrop of Jumla, the movie manages to capture life after…"
 date: 2022-09-19
 topic: movies
+pin: 6
 ---
 
 ![Prakash: A story of the Nepali struggle in contemporary political landscape](/blog/prakash-a-story-of-the-nepali-struggle-in-contemporary/cover.png)

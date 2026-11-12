@@ -244,7 +244,7 @@ Your first paragraph goes here.
 More of your writing here.
 ```
 
-   - **topic** must be exactly one of: `life`, `society` or `movies`.
+   - **topic** must be exactly one of: `life`, `society`, `movies` or `psychology`.
    - **date** is written year-month-day, like `2026-11-15`.
    - A blank line starts a new paragraph. A line starting with `## ` makes a heading.
 5. Click the green **Commit changes** button, then **Commit changes** again in the box.
