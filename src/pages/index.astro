@@ -6,16 +6,6 @@ import PostRows from '../components/PostRows.astro';
 import { SITE, HAS_CV, HAS_PORTRAIT, getPosts, url } from '../lib/site';
 
 const posts = getPosts().slice(0, 4);
-const invite = `mailto:${SITE.email}?subject=${encodeURIComponent('Speaking invitation')}`;
-
-// Talks drawn from what Shrutika already writes about. Shrutika: edit freely.
-const talks = [
-  ['“Fine, thanks”', 'Why we hide what we are going through, and how to make asking for help feel normal.'],
-  ['The invisible rulebook', 'Social norms, the rules nobody remembers agreeing to, and why we follow them anyway.'],
-  ['Borrowed feelings', 'What films teach us about empathy, and why we keep choosing the ones that make us cry.'],
-  ['Psychology in plain words', 'Mental health and human behaviour, explained without the jargon.'],
-];
-
 ---
 <Base desk>
   <Hero />
@@ -60,41 +50,6 @@ const talks = [
   </section>
 
   <Anagram />
-
-  <section id="speaking" class="stage" aria-labelledby="speaking-title">
-    <div class="wrap stage-grid">
-      <div class="stage-intro">
-        <h2 id="speaking-title" class="section-title">Some ideas are better said out loud.</h2>
-        <p>
-          I love public speaking: the nerves before, the quiet when a room is really listening, and the
-          questions after. I’m happy to give a talk, sit on a panel, run a workshop, or host and moderate
-          an event.
-        </p>
-        <div class="invite">
-          <a class="button invert" href={invite}>Invite me to speak</a>
-          <span class="hand-note" aria-hidden="true">
-            <svg viewBox="0 0 40 20" width="34" height="17"><path d="M38 14 C 26 18, 12 16, 4 6 M4 6 l1 7 M4 6 l7 1" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" /></svg>
-            big halls or small classrooms
-          </span>
-        </div>
-      </div>
-      <div class="talks">
-        <h3>Things I like to talk about</h3>
-        <dl>
-          {talks.map(([title, text]) => (
-            <div><dt>{title}</dt><dd>{text}</dd></div>
-          ))}
-        </dl>
-        <!--
-          Shrutika: once you have spoken somewhere, list it here like this:
-          <h3>Where I’ve spoken</h3>
-          <ul class="appearances">
-            <li><strong>Event name</strong>, City, 2026. Talk title.</li>
-          </ul>
-        -->
-      </div>
-    </div>
-  </section>
 
   <section id="contact" class="contact wrap" aria-labelledby="contact-title">
     <div class="say-wrap">
@@ -164,57 +119,6 @@ const talks = [
   .head a { font-family: var(--sans); font-weight: 600; }
   .sheet { padding: 0.25rem clamp(1.25rem, 3vw, 2.5rem); }
 
-  /* Speaking: the one section printed in reverse, ink as the background */
-  .stage {
-    background: var(--stage);
-    color: var(--stage-text);
-    padding-block: var(--section);
-  }
-  .stage ::selection { background: var(--stage-text); color: var(--stage); }
-  .stage-grid {
-    display: grid;
-    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
-    gap: 3rem clamp(2rem, 7vw, 7rem);
-  }
-  .stage-intro p:not(.status) { max-width: 32rem; margin: 1.5rem 0 2rem; font-size: var(--step-1); line-height: 1.4; }
-  .status {
-    display: flex;
-    align-items: center;
-    gap: 0.6rem;
-    margin: 0 0 1.5rem;
-    font-family: var(--sans);
-    font-size: var(--step--1);
-    font-weight: 500;
-    color: var(--stage-soft);
-  }
-  .tally {
-    width: 0.7rem;
-    height: 0.7rem;
-    border-radius: 50%;
-    background: var(--tally);
-    box-shadow: 0 0 0 4px color-mix(in srgb, var(--tally) 30%, transparent);
-  }
-  .button.invert { background: var(--stage-text); border-color: var(--stage-text); color: var(--stage); }
-  .button.invert:hover { background: transparent; color: var(--stage-text); }
-  .talks h3 {
-    margin: 0 0 0.5rem;
-    font-family: var(--sans);
-    font-size: var(--step--1);
-    font-weight: 500;
-    color: var(--stage-soft);
-  }
-  .talks dl { margin: 0; }
-  .talks dl > div { padding-block: 1.25rem; border-bottom: 1px solid color-mix(in srgb, var(--stage-text) 25%, transparent); }
-  .talks dt {
-    font-family: var(--sans);
-    font-size: var(--step-1);
-    font-weight: 650;
-    font-stretch: 90%;
-    letter-spacing: -0.015em;
-    line-height: 1.2;
-  }
-  .talks dd { margin: 0.35rem 0 0; color: var(--stage-soft); line-height: 1.45; }
-
   /* Contact */
   .contact {
     padding-block: var(--section) clamp(2.5rem, 8vw, 5rem);
@@ -228,8 +132,6 @@ const talks = [
     line-height: 0.88;
     letter-spacing: -0.035em;
   }
-  .invite { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.25rem; }
-  .invite .hand-note { color: var(--stage-soft); }
   .say-wrap { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 0.5rem 1.5rem; }
   .contact-note { margin: 2rem 0 0.5rem; color: var(--ink-soft); }
   .email {
@@ -243,7 +145,7 @@ const talks = [
   .elsewhere { display: flex; gap: 1.5rem; margin: 1.5rem 0 0; font-family: var(--sans); font-weight: 600; }
 
   @media (max-width: 48rem) {
-    .about, .stage-grid { grid-template-columns: 1fr; }
+    .about { grid-template-columns: 1fr; }
   }
 
   /* Phones: tighter rhythm */
@@ -255,11 +157,6 @@ const talks = [
     .profile { order: 3; margin-top: 0.5rem; }
     .facts dd { font-size: 1rem; }
     .head { margin-bottom: 1.25rem; }
-    .stage-grid { gap: 2.5rem; }
-    .stage-intro p:not(.status) { margin: 1.25rem 0 1.5rem; font-size: 1.15rem; line-height: 1.5; }
-    .talks dl > div { padding-block: 1rem; }
-    .talks dt { font-size: 1.2rem; }
-    .talks dd { font-size: 1rem; }
     .say { font-size: 22vw; }
     .contact-note { margin-top: 1.5rem; font-size: 1rem; }
     .email { font-size: 1.35rem; }
