@@ -14,6 +14,7 @@ export const TOPICS = {
   society: 'Society',
   movies: 'Movies',
   psychology: 'Psychology',
+  magazine: 'Magazine',
 } as const;
 
 export type Topic = keyof typeof TOPICS;
@@ -35,6 +36,8 @@ type Frontmatter = {
   topic: Topic;
   draft?: boolean;
   pin?: number; // 1, 2, 3 ... keeps an article at the top of the lists, in that order
+  custom?: boolean; // the article has its own hand-built page in src/pages/writing
+  length?: string; // shown instead of the reading time, for example "44 pages"
 };
 
 export type Post = {
@@ -45,6 +48,8 @@ export type Post = {
   topic: Topic;
   words: number;
   pin?: number;
+  custom?: boolean;
+  length?: string;
   cover?: string; // public/blog/<slug>/cover.* when it exists
   Content: MarkdownInstance<Frontmatter>['Content'];
 };
@@ -65,7 +70,7 @@ export function getPosts(): Post[] {
         if (!fm[key]) throw new Error(`The article "${slug}.md" is missing "${key}" at the top of the file.`);
       }
       if (!(fm.topic in TOPICS)) {
-        throw new Error(`The article "${slug}.md" has topic "${fm.topic}". The topic must be life, society, movies or psychology.`);
+        throw new Error(`The article "${slug}.md" has topic "${fm.topic}". The topic must be life, society, movies, psychology or magazine.`);
       }
       const date = new Date(fm.date);
       if (Number.isNaN(date.valueOf())) {
@@ -81,6 +86,8 @@ export function getPosts(): Post[] {
         date,
         topic: fm.topic,
         pin: fm.pin,
+        custom: fm.custom,
+        length: fm.length,
         words: file.rawContent().trim().split(/\s+/).length,
         Content: file.Content,
       };

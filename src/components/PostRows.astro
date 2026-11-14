@@ -18,7 +18,7 @@ const { posts } = Astro.props;
         </span>
         <span class="meta">
           <span>{TOPICS[post.topic]}</span>
-          <span>{readingTime(post.words)}</span>
+          <span>{post.length ?? readingTime(post.words)}</span>
         </span>
       </a>
     </li>

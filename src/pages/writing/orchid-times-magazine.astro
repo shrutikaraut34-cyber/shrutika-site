@@ -1,0 +1,294 @@
+---
+import Base from '../../layouts/Base.astro';
+import { url } from '../../lib/site';
+
+// Everything on this page comes from the magazine's own pages (public/blog/orchid-times-magazine).
+const DIR = 'blog/orchid-times-magazine/pages/';
+const TOTAL = 44;
+const OFFSET = 3; // the printed page 4 is page 7 of the PDF
+
+// [printed page, title, author]
+const contents: [number, string, string][] = [
+  [4, 'Letter From The Editor', 'Shrutika Raut'],
+  [5, 'Feature Interview: Rajeela Shrestha', 'Prensha Katwal & Shrutika Raut'],
+  [8, 'Toxicity In Romance: Movies And Their Portrayal Of Love', 'Prensha Katwal'],
+  [10, 'Embracing Tradition Amidst Nature’s Rhythm: Chaite Dashain', 'Sonu Khadka'],
+  [12, 'Interview: Saru Khatri', 'Swekshya Bista'],
+  [14, 'Understanding the Depths of Childhood Depression', 'Samjhana Balika'],
+  [16, 'Changes in Teej: How do Nepali women view it?', 'Shrutika Raut'],
+  [18, 'From Garage To Glory: Gurkha Riders', 'Anil Kumar Nepal'],
+  [20, 'Stumps To Success: Cricketing Journey Of Ashok Poudel', 'Dhiraj Karki'],
+  [22, 'Cable Car in Nepal: A High-Flying Journey', 'Alila Shrestha'],
+  [24, 'Devotion Or Obsession: Complexities Of Obsessive Love', 'Prensha Katwal'],
+  [26, 'Understanding & Addressing Digital Addiction in Youth', 'Sonu Khadka'],
+  [28, 'The Glamour & The Grind: Night Life In Kathmandu', 'Swekshya Bista'],
+  [30, 'The Shades Of Psychology: Colors And Their Meaning', 'Samjhana Balika'],
+  [32, 'Roaring Revolution: Motorcycle Culture in Nepal', 'Anil Kumar Nepal'],
+  [34, 'Present Condition and Challenges of Cricket in Nepal', 'Dhiraj Karki'],
+  [36, 'Unleashing Growth: Marketing and Sales', 'Alila Shrestha'],
+  [38, 'Journey of Resilience: Nepali Diaspora in Global Landscape', 'Shrutika Raut'],
+];
+
+const facts: [string, string][] = [
+  ['Issue', 'Issue 1, Volume 6, August 2024'],
+  ['Editor-in-Chief', 'Shrutika Raut'],
+];
+
+const titleOfPage = new Map(contents.map(([printed, title]) => [printed + OFFSET, title]));
+const pages = Array.from({ length: TOTAL }, (_, i) => {
+  const n = i + 1;
+  const pad = String(n).padStart(2, '0');
+  const printed = n - OFFSET;
+  const label = n === 1 ? 'Front cover' : n >= TOTAL - 1 ? 'Back cover' : printed >= 1 ? `Page ${printed}` : `Page ${n}`;
+  const title = titleOfPage.get(n);
+  return { n, src: url(`${DIR}${pad}.webp`), alt: title ? `Orchid Times, ${label}: ${title}` : `Orchid Times, ${label}` };
+});
+
+const description = 'Orchid Times, the yearly magazine of Orchid International College. Issue 1, Volume 6, August 2024.';
+---
+<Base title="Orchid Times Magazine" description={description}>
+  <article class="wrap mag">
+    <header>
+      <p class="meta">
+        <a href={url('writing/')}>Magazine</a>
+        <span>August 2024</span>
+        <span>{TOTAL} pages</span>
+      </p>
+      <h1>Orchid Times Magazine</h1>
+      <p class="lede">
+        The yearly magazine of Orchid International College, written and produced by the BSW third year
+        students.
+      </p>
+    </header>
+
+    <section class="top" aria-label="About this issue">
+      <img class="cover" src={pages[0].src} alt="Cover of Orchid Times, August 2024: Trailblazing in Filmmaking, Rajeela Shrestha" width="1200" height="1553" />
+      <div>
+        <dl class="facts">
+          {facts.map(([k, v]) => (<div><dt>{k}</dt><dd>{v}</dd></div>))}
+        </dl>
+        <div class="actions">
+          <a class="button primary" href="#pages">Read the magazine</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="letter" aria-labelledby="letter-title">
+      <h2 id="letter-title">Letter from the Editor</h2>
+      <p>
+        Creating this magazine has been a very enthralling experience altogether. I have learned a lot about
+        teamwork, communication and the roles played by everyone in bringing such a feat to fruition. This has
+        been one of the most challenging activities that I have performed, and I am very proud of the result it
+        has produced.
+      </p>
+      <p>
+        All of the articles in this magazine have come straight from the heart of all the writers involved.
+        Bringing together all of the collective opinions, thoughts and perspectives of everyone involved has
+        been a privilege, and I got to learn from variety of people and their life experiences.
+      </p>
+      <p>
+        It is easy to look into someone and judge them from the outside, but when one puts their thoughts on
+        pen and paper, there is a whole new side of them that unravels itself. The following articles have
+        helped students put forth their thoughts in a wonderful way, and we hope that everyone enjoys the
+        diverse narratives and anecdotes told through our BSW 3rd year students.
+      </p>
+      <p class="sign">Shrutika Raut<br /><span>Editor-in-Chief</span></p>
+    </section>
+
+    <section aria-labelledby="toc-title">
+      <h2 id="toc-title">In this issue</h2>
+      <ol class="toc">
+        {contents.map(([printed, title, by]) => (
+          <li>
+            <a href={`#p${printed + OFFSET}`}>
+              <span class="t">{title}</span>
+              <span class="by">{by}</span>
+              <span class="pg"><span class="visually-hidden">Page </span>{printed}</span>
+            </a>
+          </li>
+        ))}
+      </ol>
+    </section>
+
+    <section id="pages" aria-labelledby="pages-title">
+      <h2 id="pages-title">Read the magazine</h2>
+      <p class="tip">Scroll to read every page. Tap or click a page to enlarge it.</p>
+      <div class="pages">
+        {pages.map((p) => (
+          <figure id={`p${p.n}`}>
+            <button type="button" class="open" data-page={p.n} aria-label={`Enlarge: ${p.alt}`}>
+              <img src={p.src} alt={p.alt} width="1200" height="1553" loading={p.n === 1 ? 'eager' : 'lazy'} decoding="async" />
+            </button>
+          </figure>
+        ))}
+      </div>
+      <p class="end">
+        <a class="button quiet" href="#main">Back to the top</a>
+      </p>
+    </section>
+  </article>
+
+  <dialog id="viewer" aria-label="Page viewer" data-base={url(DIR)} data-total={TOTAL}>
+    <div class="bar">
+      <span class="count" data-count aria-live="polite"></span>
+      <button type="button" class="close" data-close>Close</button>
+    </div>
+    <div class="scroller" data-scroller>
+      <img alt="" data-img />
+    </div>
+    <div class="bar">
+      <button type="button" data-prev>Previous</button>
+      <button type="button" data-next>Next</button>
+    </div>
+  </dialog>
+</Base>
+
+<script>
+  const dlg = document.querySelector<HTMLDialogElement>('#viewer');
+  if (dlg) {
+    const base = dlg.dataset.base!;
+    const total = Number(dlg.dataset.total);
+    const img = dlg.querySelector<HTMLImageElement>('[data-img]')!;
+    const count = dlg.querySelector<HTMLElement>('[data-count]')!;
+    const scroller = dlg.querySelector<HTMLElement>('[data-scroller]')!;
+    let current = 1;
+
+    const show = (n: number) => {
+      current = Math.min(Math.max(n, 1), total);
+      img.src = `${base}${String(current).padStart(2, '0')}.webp`;
+      img.alt = `Orchid Times, page ${current} of ${total}`;
+      count.textContent = `Page ${current} of ${total}`;
+      scroller.scrollTo(0, 0);
+    };
+
+    document.querySelectorAll<HTMLElement>('[data-page]').forEach((b) =>
+      b.addEventListener('click', () => {
+        show(Number(b.dataset.page));
+        dlg.showModal();
+      }),
+    );
+    dlg.querySelector('[data-close]')!.addEventListener('click', () => dlg.close());
+    dlg.querySelector('[data-prev]')!.addEventListener('click', () => show(current - 1));
+    dlg.querySelector('[data-next]')!.addEventListener('click', () => show(current + 1));
+    dlg.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowLeft') show(current - 1);
+      if (e.key === 'ArrowRight') show(current + 1);
+    });
+    // Clicking the dark area outside the page closes the viewer
+    dlg.addEventListener('click', (e) => {
+      if (e.target === dlg) dlg.close();
+    });
+  }
+</script>
+
+<style>
+  .mag { padding-top: clamp(2.5rem, 7vw, 4.5rem); padding-bottom: 3rem; }
+  header { max-width: 50rem; margin-bottom: 2.5rem; }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1.5rem;
+    margin: 0;
+    font-family: var(--sans);
+    font-size: var(--step--1);
+    color: var(--ink-soft);
+  }
+  .meta a { font-weight: 600; color: var(--ink); text-decoration: none; }
+  h1 {
+    margin: 1rem 0 0;
+    font-family: var(--sans);
+    font-size: var(--step-4);
+    font-weight: 750;
+    font-stretch: 80%;
+    line-height: 0.98;
+    letter-spacing: -0.03em;
+    text-wrap: balance;
+  }
+  .lede { max-width: var(--measure); margin: 1.5rem 0 0; font-size: var(--step-1); font-style: italic; line-height: 1.4; color: var(--ink-soft); }
+  section { scroll-margin-top: 5rem; }
+  section + section { margin-top: clamp(3rem, 8vw, 5rem); }
+  h2 {
+    margin: 0 0 1.25rem;
+    font-family: var(--sans);
+    font-size: var(--step-2);
+    font-weight: 700;
+    font-stretch: 85%;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+  }
+
+  /* Cover and key facts: side by side on a laptop, stacked on a phone */
+  .top { display: grid; grid-template-columns: minmax(0, 20rem) minmax(0, 1fr); gap: 2rem clamp(2rem, 5vw, 4rem); align-items: start; }
+  .cover { width: 100%; height: auto; border-radius: 4px; box-shadow: var(--card-shadow); }
+  .facts { margin: 0; }
+  .facts > div { display: grid; grid-template-columns: 9rem minmax(0, 1fr); gap: 0.25rem 1.25rem; padding-block: 0.85rem; border-top: 1px solid var(--mist); }
+  .facts > div:last-child { border-bottom: 1px solid var(--mist); }
+  .facts dt { font-family: var(--sans); font-size: var(--step--1); color: var(--ink-soft); }
+  .facts dd { margin: 0; font-family: var(--sans); font-weight: 600; line-height: 1.3; }
+  .actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.75rem; }
+
+  .letter { max-width: var(--measure); }
+  .letter p { margin: 0 0 1.1em; font-size: var(--step-0); line-height: 1.7; }
+  .sign { font-family: var(--hand); font-size: 1.9rem; line-height: 1.1; }
+  .sign span { font-family: var(--sans); font-size: var(--step--1); color: var(--ink-soft); }
+
+  /* Contents: every row is a big tap target that jumps to its page */
+  .toc { list-style: none; margin: 0; padding: 0; max-width: 50rem; }
+  .toc li + li { border-top: 1px solid var(--mist); }
+  .toc a {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas: 't pg' 'by pg';
+    gap: 0.1rem 1rem;
+    align-items: center;
+    padding-block: 0.9rem;
+    text-decoration: none;
+  }
+  .toc .t { grid-area: t; font-family: var(--sans); font-size: var(--step-0); font-weight: 650; line-height: 1.25; }
+  .toc .by { grid-area: by; font-family: var(--sans); font-size: var(--step--1); color: var(--ink-soft); }
+  .toc .pg { grid-area: pg; font-family: var(--sans); font-size: var(--step-1); font-weight: 700; color: var(--ink-soft); }
+  .toc a:hover .t, .toc a:focus-visible .t { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 0.15em; }
+
+
+  /* The reader: one page after another, wide enough to read on a laptop */
+  .tip { margin: -0.5rem 0 1.5rem; font-family: var(--sans); font-size: var(--step--1); color: var(--ink-soft); }
+  .pages { display: grid; gap: 1.5rem; max-width: 48rem; margin-inline: auto; }
+  .pages figure { margin: 0; scroll-margin-top: 5rem; }
+  .open { display: block; width: 100%; padding: 0; border: 0; border-radius: 4px; overflow: hidden; background: var(--mist); box-shadow: var(--card-shadow); cursor: zoom-in; }
+  .open img { display: block; width: 100%; height: auto; }
+  .open:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
+  .end { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.75rem; margin: 2.5rem 0 0; }
+
+  /* Full-screen page viewer. On a phone the page opens wider than the screen so the small print is
+     readable: drag to move around it, or pinch to zoom. */
+  dialog {
+    width: 100vw;
+    max-width: none;
+    height: 100dvh;
+    max-height: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: #0e1446;
+    color: #fff;
+  }
+  dialog[open] { display: flex; flex-direction: column; }
+  dialog::backdrop { background: rgb(8 10 40 / 0.9); }
+  dialog .bar { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 0.6rem 1rem; font-family: var(--sans); }
+  dialog .bar button {
+    min-height: 2.75rem;
+    padding: 0.5rem 1.25rem;
+    border: 1.5px solid rgb(255 255 255 / 0.6);
+    border-radius: 999px;
+    font-weight: 600;
+  }
+  dialog .bar button:hover, dialog .bar button:focus-visible { background: #fff; color: #0e1446; }
+  .scroller { flex: 1; min-height: 0; overflow: auto; overscroll-behavior: contain; }
+  .scroller img { display: block; width: clamp(900px, 100%, 1200px); max-width: none; height: auto; margin-inline: auto; background: #fff; }
+
+  @media (max-width: 52rem) {
+    .top { grid-template-columns: 1fr; }
+    .cover { max-width: 18rem; }
+    .facts > div { grid-template-columns: 1fr; }
+  }
+</style>
